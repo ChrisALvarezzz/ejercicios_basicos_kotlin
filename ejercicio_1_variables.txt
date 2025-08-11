@@ -1,0 +1,29 @@
+fun main() {
+    //5 variables implicitas de diferentes tipos
+    var numero_int_implicita = 1;
+    var numero_double_implicita = 3.4;
+    var numero_float_implicita = 8.7;
+    var nombre_string_implicita = "David";
+    var valor_bool_implicita = false;
+    
+    //5 Variables explicitas
+    var numero_int_explicita: Int = 2;
+    var numero_double_explicita: Double = 4.5;
+    var numero_float_explicita: Float = 6.9;
+    var nombre_string_explicita: String = "Alex";
+    var valor_bool_explicita: Boolean = true;
+    
+    //5 constantes de tipo implicito
+    val numero_int_implicita_cons = 4;
+    val numero_double_implicita_cons = 2.1;
+    val numero_float_implicita_cons = 5.6;
+    val nombre_string_implicita_cons = "Pablo";
+    val valor_bool_implicita_cons = false;
+    
+    //5 Constantes de tipo explicito de diferentes tipos
+    val numero_int_explicita_cons: Int = 3;
+    val numero_double_explicita_cons: Double = 9.7;
+    val numero_float_explicita_cons: Float = 1.3;
+    val nombre_string_explicita_cons: String = "Oscar";
+    val valor_bool_explicita_cons: Boolean = true;
+}
